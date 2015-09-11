@@ -1,0 +1,18 @@
+{
+  "name": "symlink-manager",
+  "main": "./lib/symlink-manager",
+  "version": "0.1.0",
+  "description": "A short description of your package",
+  "keywords": ["symlink-manager", "symlink", "atom", "plugins"],
+  "activationCommands": {
+    "atom-workspace": "symlink-manager:toggle"
+  },
+  "repository": "https://github.com/r3b-fish/symlink-manager",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.8.1"
+  }
+}
